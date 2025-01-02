@@ -24,3 +24,30 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*  SOLUTION */
+
+.container {
+  /* centered .title and .plants */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* add space between title and items */
+  gap: 32px;
+}
+
+.plants {
+  /* arrange horizon the items */
+  display: flex;
+  /* justify-content: center; */
+  gap: 52px;
+}
+
+.plant {
+  max-width: 200px;
+}
+
+* {
+  text-align: center;
+}
+
