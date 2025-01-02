@@ -12,6 +12,19 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* Flex 2 container inside */
+  display: flex;
+  justify-content: space-between;
+  /* add space between everything and the edge */
+  padding: 8px;
+}
+
+.container, .links {
+  /* Arranged items horizon */
+  display: flex;
+  align-items: center;
+  /* Add space between each item */
+  gap: 16px;
 }
 
 .profile-image {
@@ -45,4 +58,6 @@ a {
 
 ul {
   list-style-type: none;
+  /* Remove space of list */
+  padding: 0;
 }
